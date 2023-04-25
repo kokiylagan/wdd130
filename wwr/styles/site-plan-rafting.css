@@ -3,12 +3,12 @@
 :root {
     --primary-color: #25a5db;
     --secondary-color: #88AA57;
-    --accent1-color:#db7937;
-    --accent2-color: #4F533D;
+    --accent1-color:#4F533D;
+    --accent2-color: #4E3F37;
     --heading-font: 'Lora', serif;
     --paragraph-font: 'Lora', serif;
 
-    --nav-background-color: #24f7ec;
+    --nav-background-color: #88AA57;
     --nav-link-color: #040e9b;
     --nav-hover-link-color: #ACF39D;
     --nav-hover-background-color: #0a7c73;
