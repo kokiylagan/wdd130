@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+:root {
+    --primary-color: #68808A;
+    --secondary-color: #88AA57;
+    --accent1-color:#776B63;
+    --accent2-color: #4F533D;
+    --heading-font: 'Lora', serif;
+    --paragraph-font: 'Lora', serif;
+
+    --nav-background-color: #9CFFFA;
+    --nav-link-color: #68808A;
+    --nav-hover-link-color: #ACF39D;
+    --nav-hover-background-color: #E3B5A4;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav {
+background-color: var(--nav-background-color);
+font-size: 1.2rem;
+display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color)
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
