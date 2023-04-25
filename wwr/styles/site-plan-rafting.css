@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
 
 :root {
-    --primary-color: #68808A;
+    --primary-color: #25a5db;
     --secondary-color: #88AA57;
-    --accent1-color:#776B63;
+    --accent1-color:#db7937;
     --accent2-color: #4F533D;
     --heading-font: 'Lora', serif;
     --paragraph-font: 'Lora', serif;
 
-    --nav-background-color: #9CFFFA;
-    --nav-link-color: #68808A;
+    --nav-background-color: #24f7ec;
+    --nav-link-color: #040e9b;
     --nav-hover-link-color: #ACF39D;
-    --nav-hover-background-color: #E3B5A4;
+    --nav-hover-background-color: #0a7c73;
 }
 
 body {
