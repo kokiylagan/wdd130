@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
-
 :root {
     --primary-color: #331403;
     --secondary-color: #4F533D;
@@ -13,43 +12,45 @@
     --nav-hover-link-color: #383230;
     --nav-hover-background-color: #cf8e55;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+header img{
+    width: 200px;
 }
 
-header{
-    padding: 20px;
-    background-color: var(--accent1-color);
+h1, h2 {
+    font-family:var(--heading-font);
+    color:var( --secondary-color);
 }
 
-p{
-    padding: 25px;
+a{
+    text-decoration: none;
 }
-
-nav {
-background-color: var(--nav-background-color);
-font-size: 1.2rem;
-display: flex;
-}
-
-nav a{
+.hero img{
     display: block;
-    color: var(--nav-link-color);
-    padding: 1rem;
+    width: 190%;
+    height: auto;
+    top: 
 }
+h1{
+    position: absolute;
+    padding: .5rem;
+    border: black;
+}
+article{
+    position:absolute;
+}
+article img{
+    float: right;
+    width: 200px;
 
-nav a:link, nav a:visited{
-    color: var(--nav-link-color)
-}
-nav a:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
 }
