@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
 :root {
-    --primary-color: #331403;
+    --primary-color: #f05400;
     --secondary-color: #4F533D;
     --accent1-color:#cc8054;
     --accent2-color: #4E3F37;
@@ -26,6 +26,9 @@ header img{
 a{
     text-decoration: none;
 }
+h2 {
+    color: var(--primary-color);
+}
 .herodiv {
     position: relative;
     display: block;
@@ -44,7 +47,14 @@ a{
     float: right;
 }
 .stats h1{
-    position: relative;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    bottom: 150px;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #000000;
+	opacity: 0.8;
+    background: rgba(202, 193, 184, 0.7);
     text-align: center;
 }
 .stats{
@@ -52,23 +62,12 @@ a{
     top: 125px;
     right: 10px;
     left: 10px;
+    bottom: 20px;
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #000000;
 	opacity: 2.1;
     background: rgba(196, 155, 114, 0.7);
     text-align: left;
-}
-.head{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    left: 10px;
-	padding: 0.65rem;
-	box-shadow: 0 0 30px #000000;
-	opacity: 0.8;
-    background: rgba(202, 193, 184, 0.7);
-    text-align: center;
-
 }
 .sociallinks img{
     width: 50px;
