@@ -50,7 +50,6 @@ aside h2 {
 aside img{
     width: 200px;
     height: auto;
-    float: top;
     float: none;  
 }
 main img {
@@ -68,10 +67,10 @@ footer {
 /* Class Selectors*/
 .box {
     margin: 1rem;
-    border: 1px solid rgba (0,0,0,.1);
+    border: 1px solid black;
     padding: 1rem;
     background-color: rgb(139, 191, 233);
-    color: #130000;
+    color: #000000;
     
 }
 .title {
