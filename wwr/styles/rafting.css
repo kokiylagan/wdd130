@@ -121,9 +121,8 @@ h2 {
 
 
 figure img {
-    width: 225px;
+    width: 227px;
     height: auto;
-    margin: auto;
     border: 1px solid black;
     padding: 5px;
 }
@@ -132,7 +131,7 @@ figure figcaption {
     background-color: var(--nav-link-color);
     color: #fff;
     font: bold;
-    padding: 3px;
+    padding: 2px;
     text-align: center;
 }
 
