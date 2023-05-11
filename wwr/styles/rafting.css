@@ -13,22 +13,46 @@
     --nav-hover-background-color: #cf8e55;
 }
 
+header{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    align-items: center;
+    padding: .5rem;
+	box-shadow: 0 0 30px #000000;
+	opacity: 0.8;
+    background: rgba(223, 149, 76, 0.7);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 
+}
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    background-color:#f0dbc9;
 }
 header img{
-    width: 200px;
+    margin: 0 auto;
+	width: 120px;
+	height: auto;
+}
+header nav{
+   display: flex;
+   list-style-type: none;
 }
 
 a{
     text-decoration: none;
+    padding: 1.5rem;
+    font-weight: bold;
 }
 h2 {
+    text-align: center;
     color: var(--primary-color);
 }
+
 .herodiv {
     position: relative;
     display: block;
@@ -54,7 +78,7 @@ h2 {
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #000000;
 	opacity: 0.8;
-    background: rgba(202, 193, 184, 0.7);
+    background:  rgba(223, 149, 76, 0.7);
     text-align: center;
 }
 .stats{
@@ -66,10 +90,67 @@ h2 {
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #000000;
 	opacity: 2.1;
-    background: rgba(196, 155, 114, 0.7);
+    background:  rgba(223, 149, 76, 0.7);
     text-align: left;
 }
-.sociallinks img{
-    width: 50px;
-    height: 50px;
+.history img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+}
+.history{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-gap:20px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}
+.adventure{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    border: 1px solid black;
+}
+
+
+img {
+    width: 200px;
+    height: 150px;
+}
+ 
+figcaption {
+
+    color: var(--primary-color);
+    font: italic;
+    padding: 3px;
+    text-align: center;
+
+}
+
+footer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+    
+}   
+footer img{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+
+}
+footer nav{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+}
+footer p{
+    grid-column: 2;
 }
