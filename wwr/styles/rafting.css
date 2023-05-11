@@ -113,23 +113,27 @@ h2 {
 .adventure{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
+    grid-gap: auto;
     border: 1px solid black;
+    align-items: center;
+    justify-content: center;
 }
 
 
-img {
-    width: 200px;
-    height: 150px;
+figure img {
+    width: 225px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
 }
  
-figcaption {
-
-    color: var(--primary-color);
-    font: italic;
+figure figcaption {
+    background-color: var(--nav-link-color);
+    color: #fff;
+    font: bold;
     padding: 3px;
     text-align: center;
-
 }
 
 footer{
