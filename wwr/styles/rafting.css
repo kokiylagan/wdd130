@@ -139,19 +139,17 @@ footer{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    align-items: center;
-   justify-content: center;
-   margin: auto;
     
 }   
 footer img{
     width: 30px;
     height: 30px;
-    margin: auto;
 
 }
 footer nav{
     grid-column-start: 3;
     grid-column-end: 4;
+    margin-left: 70px;
     
 }
 footer p{
