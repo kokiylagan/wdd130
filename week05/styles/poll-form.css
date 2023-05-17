@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #f0ddc1;
+}
+header{
+    margin: 0 auto;
+}
+h1{
+    margin: 1rem;
+    font-size: 1.5em;
+    color: #844621;
+    text-align: center;
+}
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid #ffffff;
+    border-radius: 2rem;
+    background-color: #383230;
+    display: grid;
+}
+fieldset{
+    display: grid;
+    grid-gap:.5rem;
+    margin: .5rem;
+    border: 1px solid rgba (0, 0 ,0 , .3);
+    padding: .5rem;
+}
+legend{
+    font-size: larger;
+    padding: 5px;
+}
+label, button{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea{
+    padding: 0.5rem;
+    font-size:15px;
+}
+input[type="checkbox"]{
+    vertical-align: bottom;
+    width: 25px;
+    height: 25px;
+}
+button{
+    background-color: #91522e;
+    color: #ffff;
+    padding: 10px;
+    border: none;
+    font: 1rem;
+}
+button:hover{
+    background-color: #813407;
+}
+footer{
+    text-align: center;
+    color: #844621;
+    width: 650px;
+    margin: 1rem auto 0;
+    font-size: 1rem;
+    border-top: 1px solid #ccc;
+}
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin:.5rem 0;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: .5rem 0;
+}
