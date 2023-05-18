@@ -19,14 +19,16 @@ header{
     grid-template-columns: 3fr 6fr;
     align-items: center;
     padding: .5rem;
-	box-shadow: 0 0 30px #000000;
 	opacity: 0.8;
     background: rgba(223, 149, 76, 0.7);
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    border: 1px solid rgb(134, 125, 125);
+    background-color:rgba(223, 149, 76, 0.7); 
+    }
 
-}
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -48,9 +50,13 @@ a{
     padding: 1.5rem;
     font-weight: bold;
 }
-h2 {
+h2,h3 {
     text-align: center;
-    color: var(--primary-color);
+    color: black;
+    text-decoration: underline;
+}
+h3{
+    font-size: 1.5rem;
 }
 
 .herodiv {
@@ -141,16 +147,130 @@ footer{
     
 }   
 footer img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 
 }
 footer nav{
     grid-column-start: 3;
     grid-column-end: 4;
-    margin-left: 70px;
+    margin: 0 auto;
     
 }
 footer p{
     grid-column: 2;
+}
+
+/* contact us*/
+.reach{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgba(223, 149, 76, 0.7); 
+    margin: auto;
+    border-radius: 1rem;
+
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid rgb(134, 125, 125);
+    background-color:rgba(223, 149, 76, 0.7); 
+    border-radius: 1rem;
+   
+}
+.team img{
+    height: 227px;
+    width: 227px;
+    align-items: center;
+    justify-content: center;
+}
+.reservations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 20px;
+    margin: auto;
+    background-color:rgba(223, 149, 76, 0.7); 
+}
+.customer-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    background-color:rgba(223, 149, 76, 0.7); 
+    border-radius: 1rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+iframe{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    border: 1px solid black;
+    background-color:rgba(223, 149, 76, 0.7); 
+}
+
+
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    background-color:rgba(223, 149, 76, 0.7); 
+    margin-top: 1rem;
+    border-radius: 1rem;
+    
+}
+form{
+    width: auto;
+    margin: 1rem auto;
+    padding: .5rem;
+    border: 1px solid #000000;
+    background-color:rgba(223, 149, 76, 0.7); 
+    display: grid;
+    border-radius: 1rem;
+    
+}
+
+fieldset{
+    display: grid;
+    grid-gap:.5rem;
+    margin: .5rem;
+    padding: 20px;
+    
+}
+legend{
+    font-size: larger;
+    padding: 5px;
+}
+input[type="radio"]{
+    vertical-align: bottom;
+    width: 15px;
+    height: 15px;
+}
+button{
+    background-color: #91522e;
+    color: #ffff;
+    padding: 10px;
+    border: none;
+    font: 1rem;
+}
+button:hover{
+    background-color: #c26027;
 }
