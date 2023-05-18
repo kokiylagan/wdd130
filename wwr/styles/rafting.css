@@ -65,6 +65,7 @@ h3{
     width: 100%;
     height: auto;
     text-align: center;
+    
 }
 .herodiv img {
     width: 100%;
@@ -75,6 +76,7 @@ h3{
     width: 100px;
     height: 100px;
     float: right;
+    border-radius: 1rem;
 }
 .stats h1{
     position: absolute;
@@ -86,6 +88,7 @@ h3{
 	opacity: 0.8;
     background:  rgba(223, 149, 76, 0.7);
     text-align: center;
+    border-radius: 1rem;
 }
 .stats{
     position: absolute;
@@ -98,6 +101,7 @@ h3{
 	opacity: 2.1;
     background:  rgba(223, 149, 76, 0.7);
     text-align: left;
+    border-radius: 1rem;
 }
 .history img{
     display: flex;
@@ -115,6 +119,8 @@ h3{
     border: 1px solid black;
     padding: 20px;
     margin: auto;
+    background-color:rgba(223, 149, 76, 0.7); 
+    border-radius: 1rem;
 }
 .adventure{
     display: grid;
@@ -122,6 +128,8 @@ h3{
     border: 1px solid black;
     align-items: center;
     justify-content: center;
+    background-color:rgba(223, 149, 76, 0.7); 
+    border-radius: 1rem;
 }
 
 
@@ -243,9 +251,8 @@ form{
     padding: .5rem;
     border: 1px solid #000000;
     background-color:rgba(223, 149, 76, 0.7); 
-    display: grid;
     border-radius: 1rem;
-    
+    display: grid;
 }
 
 fieldset{
