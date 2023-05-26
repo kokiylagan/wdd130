@@ -15,6 +15,7 @@
 *{
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
 }
 
 header{
@@ -28,8 +29,8 @@ header{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    border: 1px solid rgb(134, 125, 125);
-    background-color:rgba(223, 149, 76, 0.7); 
+    background-image: url(x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
 }
 nav{
     display: flex;
@@ -42,11 +43,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: var(--paragraph-font);
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color:#f0dbc9;
-   
-  
+ 
 }
 header img{
     margin: 0 auto;
@@ -73,7 +70,8 @@ a{
 h2,h3 {
     text-align: center;
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 3rem;
 }
 h3{
     font-size: 1.5rem;
@@ -85,44 +83,46 @@ h3{
     width: 100%;
     height: auto;
     text-align: center;
-    
+
 }
 .herodiv img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
+    margin: 2px;
 }
 .stats img{
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     float: right;
-    border-radius: 1rem;
 }
 .stats h1{
     position: absolute;
     right: 10px;
     left: 10px;
-    bottom: 150px;
+    bottom: 100%;
 	padding: 0.65rem;
-	box-shadow: 0 0 30px #000000;
 	opacity: 0.8;
-    background:  rgba(223, 149, 76, 0.7);
     text-align: center;
-    border-radius: 1rem;
+    width: auto;
+    background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    
 }
 .stats{
     position: absolute;
-    top: 125px;
-    right: 10px;
-    left: 10px;
-    bottom: 20px;
+    top: 30%;
 	padding: 0.65rem;
-	box-shadow: 0 0 30px #000000;
-	opacity: 2.1;
-    background:  rgba(223, 149, 76, 0.7);
     text-align: left;
-    border-radius: 1rem;
+    width: auto;
+    margin: 1rem 1rem 1rem 1rem;
+    background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    
 }
+.stats{
+    font-size: 30px;
+}
+
 .history img{
     display: flex;
     justify-content: center;
@@ -136,27 +136,25 @@ h3{
     grid-template-columns: 1fr 200px 1fr;
     grid-gap:20px;
     align-items: center;
-    border: 1px solid black;
+    background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
     padding: 20px;
     margin: auto;
-    background-color:rgba(223, 149, 76, 0.7); 
-    border-radius: 1rem;
+
 }
 .adventure{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    border: 1px solid black;
     align-items: center;
     justify-content: center;
-    background-color:rgba(223, 149, 76, 0.7); 
-    border-radius: 1rem;
+    background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
 }
 
 
 figure img {
     width: 227px;
     height: auto;
-    border: 1px solid black;
     padding: 5px;
 }
  
@@ -198,6 +196,7 @@ footer p{
     text-decoration: none;
     margin: auto;
 
+
 }
 .team{
     display: grid;
@@ -205,7 +204,13 @@ footer p{
     border: 1px solid rgb(134, 125, 125);
     background-color:rgba(223, 149, 76, 0.7); 
     border-radius: 1rem;
+    background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
    
+}
+.celeb{
+    background-color:rgba(223, 149, 76, 0.7); 
+
 }
 .team img{
     height: 227px;
@@ -218,22 +223,18 @@ footer p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+
     border-radius: 1rem;
     padding: 20px;
     margin: auto;
-    background-color:rgba(223, 149, 76, 0.7); 
 }
 .customer-service{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     padding: 20px;
     margin: auto;
-    background-color:rgba(223, 149, 76, 0.7); 
-    border-radius: 1rem;
 }
 .grid{
     display: grid;
@@ -305,21 +306,18 @@ button:hover{
 /* trips */
 .astats{
     position: absolute;
-    top: 20%;
- 
+    top: 10%;
     text-align: center;
-    font-size: 30px;
-    color: #271301;
+    font-size: 90px;
+    color: #e7b58c;
     padding: 0.65rem;
     text-align: center;
-    background-color:rgba(223, 149, 76, 0.4);
-    width: 98.33%;
-
+    width: 98.75%;
 }
 
 .offer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: .1fr 2fr 2fr 2fr;
     text-align: center;
     border-radius: 1rem;
     align-items: center;
@@ -333,19 +331,17 @@ button:hover{
 	letter-spacing: 3px;
 	border-radius: 1px;
 	padding: 30px 30px;
-
 }
-
 .plantrip{
     text-align: center;
 }
 .offer img{
-    width: 300px;
-    height: auto;
+    width: 400px;
+    height: 350px;
 }
 .offer a{
 	text-decoration: none;
-	color: black;
+    color: var(--accent2-color);
 	font-weight: bold;
 	font-size: 18px;
 	border-radius: 12px;
@@ -356,47 +352,30 @@ button:hover{
 	letter-spacing: 3px;
 	transition: 0.6s;
 }
-#ofigure img{
-    border-style: 1px solid black;
-    border-radius: 1rem;
+figure:hover{
+    transform: scale(1.2);
 }
+
 .lodging{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-gap: 10px;
+    grid-template-columns: .5fr 6fr;
 }
 .award{
+    justify-content: center;
     padding:1rem;
-    background-color:rgba(223, 149, 76, 0.4);
-    border-radius: 1rem;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .award p{
     text-align: center;
     font-size: 15px;
 }
-.award a{
-    padding: 1rem;
-    align-items: center;
-    justify-content: center;
-    background-color: #91522e;
-    color: #ffff;
-    padding: 10px;
-    border: none;
-    font: 1rem;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-}
+
 .award h2{
     text-decoration: none;
     font-size: 2rem;
 }
-.award a:hover{
-    background-color: #c26027;
-    letter-spacing: 3px;
-	transition: 0.6s;
-}
+
 .award img{
     width: 200px;
     height: auto;
@@ -404,25 +383,29 @@ button:hover{
     align-items: center; 
     justify-content: center; 
 }
-.cabin img{
-    width: 100%;
-    height: 600px;
-    border-radius: 1rem;
+.award a{
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #91522e;
+    color: #ffff;
+    font: 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+.award a:hover{
+    background-color: #c26027;
+    letter-spacing: 3px;
+	transition: 0.6s;    
 }
-.cabin{
-    position: relative;
-    border-radius: 1rem;
-    text-align: center;
 
+#reserve{
+    font-size: 3rem;
+    text-decoration: none;
+    background-color:rgba(184, 112, 40, 0.4);
 }
-.cabin p{
-    position: absolute;
-    top:25%;
-    padding: 0.65rem;
-    text-align: center;
-    padding: 0.65rem;
-    text-align: center;
-    background-color:rgba(223, 149, 76, 0.4);
-    width: 98.2%;
-    font-size: 50px;
+#tbanner{
+    filter: brightness(.4);
 }
+
